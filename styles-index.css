@@ -1,0 +1,52 @@
+html {
+    background-image: url("images/closeup-male-barista-hands-pouring-alternative-coffee-from-chemex.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 550px;
+    margin-left: 10%;
+    margin-top: 200px;
+    background: rgba(31, 31, 31, 0.8);
+    padding: 1px 50px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.container .content {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.container .datetime {
+    color: white;
+
+}
+
+.container .location {
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.container a {
+    margin-top: 100px;
+    padding: 15px 55px;
+    border-radius: 40px;
+    border: 2px solid white;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+
+}

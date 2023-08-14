@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../assignment2/register.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="bg">
+  <div class="register-form">
+    <h1>Register Form</h1>
+    <form id="registerForm" name="register" onsubmit="validateForm()">
+      <label for="cname">Company Name</label>
+      <input type="text" id="cname" name="companyname" placeholder="Company name..">
+  
+      
+  
+      <label for="boothsize">Booth Size</label>
+      <select id="boothsize" name="boothsize">
+        <option value="10x10">10x10 ft</option>
+        <option value="10x15">10x15 ft</option>
+      </select>
+
+      <label for="chairs">Number Of Chair</label>
+      <input type="number" id="chairs" name="chairs" value=1 placeholder="1">
+
+      <label for="contactname">Contact Name</label>
+      <input type="text" id="contactname" name="contactname" placeholder="Your contact name..">
+
+      <label for="phonenumber">Phone Number</label>
+      <input type="text" id="phonenumber" name="phonenumber" placeholder="089-999-9999">
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+  
+  
+
+</body>
+</html>
